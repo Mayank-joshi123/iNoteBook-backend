@@ -6,7 +6,7 @@ var cors = require('cors')
 const app = express()
 const port = 8001
 app.use(cors({
-  origin: 'https://mayank-joshi01.github.io'
+  origin: ['https://mayank-joshi01.github.io',"http://localhost:3000"],
 }));
 /// Connecting to database
 connectToMongodb();
