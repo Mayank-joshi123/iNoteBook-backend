@@ -1,3 +1,4 @@
+/////// Just improving some previous mistakes
 require('dotenv').config()
 const connectToMongodb = require("./db")
 const express = require('express')
